@@ -24,8 +24,10 @@ Users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Screenshot
+![Screenshot](https://user-images.githubusercontent.com/121173949/213553275-15aeeb31-85a9-402a-82cc-6976f39d7dbf.png)
 
 ### Links
+Site: https://priskinzsuzsanna.github.io/FrontendMentorProject-dashboard/
 
 ## My process
 
