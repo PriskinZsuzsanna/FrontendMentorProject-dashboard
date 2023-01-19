@@ -83,102 +83,102 @@ function getData() {
         .then((data) => {
             
             workResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[0].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[0].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[0].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[0].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[0].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[0].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[0].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[0].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[0].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[0].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[0].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[0].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             workData.innerHTML = workResult;
 
 
             playResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[1].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[1].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[1].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[1].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[1].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[1].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[1].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[1].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[1].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[1].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[1].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[1].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             playData.innerHTML = playResult;
 
 
             studyResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[2].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[2].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[2].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[2].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[2].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[2].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[2].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[2].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[2].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[2].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[2].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[2].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             studyData.innerHTML = studyResult;
 
 
             exerciseResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[3].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[3].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[3].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[3].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[3].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[3].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[3].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[3].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[3].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[3].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[3].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[3].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             exerciseData.innerHTML = exerciseResult;
 
 
             socialResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[4].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[4].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[4].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[4].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[4].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[4].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[4].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[4].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[4].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[4].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[4].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[4].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             socialData.innerHTML = socialResult;
 
 
             selfcareResult = `
-                <div class="data-content" id="daily">
-                    <h2 id="daily-work-hours"><span class="h2">${data[5].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-daily-work-hours">Last day - <span class="p">${data[5].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="daily">
+                    <h2 class="daily-work-hours"><span class="h2">${data[5].timeframes.daily.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-daily-work-hours">Last day - <span class="p">${data[5].timeframes.daily.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content active" id="weekly">
-                    <h2 id="weekly-work-hours"><span class="h2">${data[5].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-weekly-work-hours">Last week - <span class="p">${data[5].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content active" class="weekly">
+                    <h2 class="weekly-work-hours"><span class="h2">${data[5].timeframes.weekly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-weekly-work-hours">Last week - <span class="p">${data[5].timeframes.weekly.previous}</span><span class="hrs-p"></span></p>
                 </div>
-                <div class="data-content" id="monthly">
-                    <h2 id="monthly-work-hours"><span class="h2">${data[5].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
-                    <p id="prev-monthly-work-hours">Last month - <span class="p">${data[5].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
+                <div class="data-content" class="monthly">
+                    <h2 class="monthly-work-hours"><span class="h2">${data[5].timeframes.monthly.current}</span><span class="hrs-h2"></span></h2>
+                    <p class="prev-monthly-work-hours">Last month - <span class="p">${data[5].timeframes.monthly.previous}</span><span class="hrs-p"></span></p>
                 </div>
         `
             selfcareData.innerHTML = selfcareResult;
